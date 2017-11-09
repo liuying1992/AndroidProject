@@ -1,0 +1,90 @@
+<com.liuying.aikatestdemo.CustomScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      >
+
+    <TextView
+        android:text="Text 1"
+        style="@style/text"
+        />
+
+    <View style="@style/text_divider"/>
+
+    <TextView
+        android:text="Text 2"
+        style="@style/text"
+        />
+
+    <View style="@style/text_divider"/>
+
+    <TextView
+        android:text="Text 3"
+        style="@style/text"
+        />
+
+    <View style="@style/text_divider"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        />
+
+    <View style="@style/text_divider"/>
+
+    <TextView
+        android:text="Text 4"
+        style="@style/text"
+        />
+
+    <View style="@style/text_divider"/>
+
+    <TextView
+        android:text="Text 5"
+        style="@style/text"
+        />
+
+    <View style="@style/text_divider"/>
+
+    <TextView
+        android:text="Text 6"
+        style="@style/text"
+        />
+
+    <View style="@style/text_divider"/>
+
+    <TextView
+        android:text="Text 7"
+        style="@style/text"
+        />
+
+    <View style="@style/text_divider"/>
+
+    <TextView
+        android:text="Text 8"
+        style="@style/text"
+        />
+
+    <View style="@style/text_divider"/>
+
+    <TextView
+        android:text="Text 9"
+        style="@style/text"
+        />
+
+    <View style="@style/text_divider"/>
+
+    <TextView
+        android:text="Text 10"
+        style="@style/text"
+        />
+  </LinearLayout>
+
+</com.liuying.aikatestdemo.CustomScrollView>
