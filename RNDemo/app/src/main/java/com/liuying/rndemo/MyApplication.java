@@ -5,6 +5,7 @@ import com.facebook.react.ReactApplication;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
+import com.liuying.rndemo.module.MyReactPackage;
 import java.util.Arrays;
 import java.util.List;
 import javax.annotation.Nullable;
@@ -25,7 +26,7 @@ public class MyApplication extends Application implements ReactApplication {
     }
 
     @Override protected List<ReactPackage> getPackages() {
-      return Arrays.<ReactPackage>asList(new MainReactPackage());
+      return Arrays.<ReactPackage>asList(new MainReactPackage(), new MyReactPackage());
     }
 
     @Nullable @Override protected String getJSBundleFile() {
